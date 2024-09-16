@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+header h1 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 1rem;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+#balanceResult {
+  font-size: 1.2em;
+  color: #333;
+  margin: 15px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.add-address {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.account-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.account-table th,
+.account-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.account-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.account-table td {
+  background-color: #f9f9f9;
+}
+
+/* Estilos adicionais para o ícone de copiar e a mensagem "Copiado!" */
+.copy-icon {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.copied-message {
+  margin-left: 10px;
+  color: green;
+  font-size: 0.9em;
+}
+
+.remove-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #e60000;
+}
+
+/* Mensagem de erro para endereços duplicados */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* Campo de busca */
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
